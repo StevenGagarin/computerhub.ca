@@ -1,0 +1,71 @@
+#body {
+    background-color: black;
+}
+
+#home {
+    text-align: center;
+    color: orangered;
+    margin-left: 25px;
+    font-size: 200%;
+}
+
+#title {
+    text-align: center;
+    color: orangered;
+    font-size: 400%;
+    font-family: myFirstFont;
+}
+
+#cart {
+    text-align: center;
+    color: orangered;
+    margin-right: 25px;
+    font-size:200%;
+}
+
+th {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+    text-align: center;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: black;
+    text-align: center;
+}
+
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    color: orangered;
+    text-align: center;
+}
+
+A {
+    text-decoration: none;
+    color: orangered;
+}
+
+sold {
+    color: red;
+    font-size: 200%
+}
+
+img:hover {
+    opacity: 0.5;
+}
+
+.row2 {
+    margin-top: 150px;
+}
+
+.titlespace {
+    margin-top: 50px;
+}
+
+.space {
+    margin-top: 30px;
+}
