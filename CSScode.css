@@ -1,0 +1,152 @@
+
+/* ---- reset ---- */ 
+body {
+    margin: 0;
+    padding:0;
+    height: 100vh;
+}
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+}
+/* ---- particles.js container ---- */
+
+#particles-js {
+    background-color: #878788;
+    position: absolute;
+    width: 100%;
+    height: 220%;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 2px 2px;
+    top: -100px;
+    left: -20px;
+    z-index: -1;
+}
+/*img:hover {
+    opacity: 0.5;
+}*/
+
+.js-count-particles {
+    font-size: 1.1em;
+}
+
+#stats, .count-particles {
+    -webkit-user-select: none;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+#stats {
+    border-radius: 3px 3px 0 0;
+    overflow: hidden;
+}
+
+.count-particles {
+    border-radius: 0 0 3px 3px;
+}  
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    text-align: center;
+    background:black;
+}
+SEXYNAME {
+    font-size: 500%;
+}
+div {
+    text-align: center;
+    text-decoration-color: black;
+    align-content: center;
+    display: inline-block;
+    color: black;
+    font-size: 120%;
+    font-weight: 900;
+    font-weight: bold;
+    /* MARGIN*/
+    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+#computerhub {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: black;
+    font-size: 300%;
+}
+#sold {
+    color: red;
+    font-size: 200%;
+}
+#cart {
+    text-decoration: underline;
+    text-align: right;
+    color: black;
+    font-size: 200%;
+    font-weight: bold;
+    margin-right: 150px;
+}
+/*credit to https://stackoverflow.com/questions/16782498/looping-animation-of-text-color-change-using-css3*/
+.awesome {
+    font-family: futura;
+    width: 100%;
+    text-align: center;
+    color: #313131;
+    font-weight: bold;
+    position: absolute;
+    -webkit-animation: colorchange 25s infinite alternate;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 400%;
+}
+
+@-webkit-keyframes colorchange {
+    0% {
+        color: blue;
+    }
+
+    10% {
+        color: #8e44ad;
+    }
+
+    20% {
+        color: #1abc9c;
+    }
+
+    30% {
+        color: #d35400;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    50% {
+        color: #34495e;
+    }
+
+    60% {
+        color: blue;
+    }
+
+    70% {
+        color: #2980b9;
+    }
+
+    80% {
+        color: #f1c40f;
+    }
+
+    90% {
+        color: #2980b9;
+    }
+
+    100% {
+        color: pink;
+    }
