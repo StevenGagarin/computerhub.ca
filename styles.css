@@ -1,0 +1,170 @@
+body {
+    
+    background-repeat: repeat;
+    /*opacity: 0.6;*/
+    text-align: center;
+    
+}
+header {
+    padding-bottom: 80px;
+}
+.titlename {
+    font-size: 60px;
+    font-weight: bold;
+    margin:-10;
+}
+img {
+    text-align: center;
+}
+.title {
+    font-size: 40px;
+    text-decoration: underline;
+    padding-bottom:20px;
+}
+.blackclear {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+html {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+    padding: 2vw;
+    padding: 2vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+* {
+    box-sizing: border-box
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+.mySlides .mySlides2 {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+* {
+    box-sizing: border-box
+}
+
+body {
+    font-family: Verdana, sans-serif;
+    margin: 0
+}
+
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.mySlides1, .mySlides2 {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+    /* On hover, add a grey background color */
+    .prev:hover, .next:hover {
+        background-color: #f1f1f1;
+        color: black;
+    }
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {
+        font-size: 11px
+    }
+}
