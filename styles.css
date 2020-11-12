@@ -59,7 +59,7 @@ body {
     margin: 0
 }
 
-.mySlides .mySlides2 {
+.mySlides .mySlides2 .mySlides3{
     display: none
 }
 
@@ -88,7 +88,7 @@ img {
     box-sizing: border-box
 }
 
-.mySlides1, .mySlides2 {
+.mySlides1, .mySlides2 .mySlides3{
     display: none
 }
 
@@ -101,6 +101,8 @@ img {
     max-width: 1000px;
     position: relative;
     margin: auto;
+    border: 10px outset black;
+    border-radius: 12px;
 }
 
 /* Next & previous buttons */
@@ -167,4 +169,10 @@ img {
     .prev, .next, .text {
         font-size: 11px
     }
+}
+p {
+    font-weight: 900;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
 }
